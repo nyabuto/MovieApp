@@ -15,6 +15,17 @@
 		A14F88061D40A2320078BB73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14F88051D40A2320078BB73 /* Images.xcassets */; };
 		A14F88091D40A2320078BB73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A14F88071D40A2320078BB73 /* LaunchScreen.xib */; };
 		A14F88151D40A2320078BB73 /* MovieAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A14F88141D40A2320078BB73 /* MovieAppTests.m */; };
+		A14F881F1D40B6690078BB73 /* facebook_login.png in Resources */ = {isa = PBXBuildFile; fileRef = A14F881E1D40B6690078BB73 /* facebook_login.png */; };
+		A14F88211D410CDD0078BB73 /* movies.png in Resources */ = {isa = PBXBuildFile; fileRef = A14F88201D410CDD0078BB73 /* movies.png */; };
+		A14F88251D4118020078BB73 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = A14F88221D4118020078BB73 /* about.png */; };
+		A14F88261D4118020078BB73 /* Help.png in Resources */ = {isa = PBXBuildFile; fileRef = A14F88231D4118020078BB73 /* Help.png */; };
+		A14F88271D4118020078BB73 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = A14F88241D4118020078BB73 /* settings.png */; };
+		A14F88301D411C5D0078BB73 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14F882F1D411C5D0078BB73 /* SearchViewController.m */; };
+		A14F88331D411CC00078BB73 /* BookmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14F88321D411CC00078BB73 /* BookmarkViewController.m */; };
+		A14F88361D411CF80078BB73 /* MovieDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14F88351D411CF80078BB73 /* MovieDetailsViewController.m */; };
+		A14F88391D411D430078BB73 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14F88381D411D430078BB73 /* SettingsViewController.m */; };
+		A14F883C1D411DCA0078BB73 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14F883B1D411DCA0078BB73 /* LoginViewController.m */; };
+		A1B0F22F1D41F80E00D4E25A /* Film.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B0F22E1D41F80E00D4E25A /* Film.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +53,24 @@
 		A14F880E1D40A2320078BB73 /* MovieAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14F88131D40A2320078BB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A14F88141D40A2320078BB73 /* MovieAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieAppTests.m; sourceTree = "<group>"; };
+		A14F881E1D40B6690078BB73 /* facebook_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook_login.png; path = Images.xcassets/facebook_login.png; sourceTree = "<group>"; };
+		A14F88201D410CDD0078BB73 /* movies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movies.png; sourceTree = "<group>"; };
+		A14F88221D4118020078BB73 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		A14F88231D4118020078BB73 /* Help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Help.png; sourceTree = "<group>"; };
+		A14F88241D4118020078BB73 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		A14F882E1D411C5D0078BB73 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		A14F882F1D411C5D0078BB73 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		A14F88311D411CC00078BB73 /* BookmarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkViewController.h; sourceTree = "<group>"; };
+		A14F88321D411CC00078BB73 /* BookmarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkViewController.m; sourceTree = "<group>"; };
+		A14F88341D411CF80078BB73 /* MovieDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailsViewController.h; sourceTree = "<group>"; };
+		A14F88351D411CF80078BB73 /* MovieDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailsViewController.m; sourceTree = "<group>"; };
+		A14F88371D411D430078BB73 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		A14F88381D411D430078BB73 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		A14F883A1D411DCA0078BB73 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A14F883B1D411DCA0078BB73 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A1B0F22D1D41F80E00D4E25A /* Film.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Film.h; sourceTree = "<group>"; };
+		A1B0F22E1D41F80E00D4E25A /* Film.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Film.m; sourceTree = "<group>"; };
+		A1B0F2301D41FB6900D4E25A /* MovieApp_prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieApp_prefix.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,15 +112,33 @@
 		A14F87F41D40A2320078BB73 /* MovieApp */ = {
 			isa = PBXGroup;
 			children = (
-				A14F87F91D40A2320078BB73 /* AppDelegate.h */,
+				A1B0F2301D41FB6900D4E25A /* MovieApp_prefix.pch */,
 				A14F87FA1D40A2320078BB73 /* AppDelegate.m */,
+				A14F87F91D40A2320078BB73 /* AppDelegate.h */,
 				A14F87FF1D40A2320078BB73 /* ViewController.h */,
 				A14F88001D40A2320078BB73 /* ViewController.m */,
 				A14F88021D40A2320078BB73 /* Main.storyboard */,
+				A14F883A1D411DCA0078BB73 /* LoginViewController.h */,
+				A14F883B1D411DCA0078BB73 /* LoginViewController.m */,
+				A14F88371D411D430078BB73 /* SettingsViewController.h */,
+				A14F88381D411D430078BB73 /* SettingsViewController.m */,
+				A14F88341D411CF80078BB73 /* MovieDetailsViewController.h */,
+				A14F88351D411CF80078BB73 /* MovieDetailsViewController.m */,
+				A14F88311D411CC00078BB73 /* BookmarkViewController.h */,
+				A14F88321D411CC00078BB73 /* BookmarkViewController.m */,
+				A14F882E1D411C5D0078BB73 /* SearchViewController.h */,
+				A14F882F1D411C5D0078BB73 /* SearchViewController.m */,
 				A14F88051D40A2320078BB73 /* Images.xcassets */,
+				A14F88221D4118020078BB73 /* about.png */,
+				A14F88231D4118020078BB73 /* Help.png */,
+				A14F88241D4118020078BB73 /* settings.png */,
+				A14F88201D410CDD0078BB73 /* movies.png */,
+				A14F881E1D40B6690078BB73 /* facebook_login.png */,
 				A14F88071D40A2320078BB73 /* LaunchScreen.xib */,
 				A14F87FC1D40A2320078BB73 /* MovieApp.xcdatamodeld */,
 				A14F87F51D40A2320078BB73 /* Supporting Files */,
+				A1B0F22D1D41F80E00D4E25A /* Film.h */,
+				A1B0F22E1D41F80E00D4E25A /* Film.m */,
 			);
 			path = MovieApp;
 			sourceTree = "<group>";
@@ -202,9 +249,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14F88271D4118020078BB73 /* settings.png in Resources */,
 				A14F88041D40A2320078BB73 /* Main.storyboard in Resources */,
+				A14F88211D410CDD0078BB73 /* movies.png in Resources */,
 				A14F88091D40A2320078BB73 /* LaunchScreen.xib in Resources */,
+				A14F88261D4118020078BB73 /* Help.png in Resources */,
 				A14F88061D40A2320078BB73 /* Images.xcassets in Resources */,
+				A14F881F1D40B6690078BB73 /* facebook_login.png in Resources */,
+				A14F88251D4118020078BB73 /* about.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +276,12 @@
 			files = (
 				A14F87FB1D40A2320078BB73 /* AppDelegate.m in Sources */,
 				A14F87F81D40A2320078BB73 /* main.m in Sources */,
+				A14F88331D411CC00078BB73 /* BookmarkViewController.m in Sources */,
+				A14F88391D411D430078BB73 /* SettingsViewController.m in Sources */,
+				A14F88361D411CF80078BB73 /* MovieDetailsViewController.m in Sources */,
+				A1B0F22F1D41F80E00D4E25A /* Film.m in Sources */,
+				A14F883C1D411DCA0078BB73 /* LoginViewController.m in Sources */,
+				A14F88301D411C5D0078BB73 /* SearchViewController.m in Sources */,
 				A14F88011D40A2320078BB73 /* ViewController.m in Sources */,
 				A14F87FE1D40A2320078BB73 /* MovieApp.xcdatamodeld in Sources */,
 			);
@@ -290,6 +348,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = MovieApp/MovieApp_prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -330,6 +389,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = MovieApp/MovieApp_prefix.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -416,6 +476,7 @@
 				A14F881A1D40A2320078BB73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A14F881B1D40A2320078BB73 /* Build configuration list for PBXNativeTarget "MovieAppTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +485,7 @@
 				A14F881D1D40A2320078BB73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

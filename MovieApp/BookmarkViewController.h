@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BookmarkViewController.h
 //  MovieApp
 //
 //  Created by ilabadmin on 7/21/16.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-- (IBAction)fbLogin:(id)sender;
-
+@interface BookmarkViewController : UIViewController
 
 @end
-
