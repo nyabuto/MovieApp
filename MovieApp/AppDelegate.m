@@ -123,5 +123,14 @@
         }
     }
 }
++(NSURLConnection *) initiateURLConnection : (NSURL * )jsonUrl{
+    
+    NSURLRequest *request = [NSURLRequest requestWithURL:jsonUrl];
+    NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest: request delegate :self];
+    [conn start ];
+    [conn scheduleInRunLoop:[NSRunLoop mainRunLoop]forMode:NSDefaultRunLoopMode] ;
+    
+    return conn;
+}
 
 @end

@@ -19,5 +19,5 @@
 #define kPoster @"Poster"
 
 //TODO Other models
-
+#define kBaseAPIUrl @"BaseApiURL"
 #endif
